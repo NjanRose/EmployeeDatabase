@@ -1,7 +1,7 @@
 # EmployeeDatabase
 <h2>Microservice Deployment using Spring Boot, Mysql and Pivotal Cloud Foundry:
 
-<h3>Aim</h3><br>
+<h3>Aim</h3>
 To Deploy a microservice using Spring Boot and Pivotal Cloud Foundry keeping MySQL as database.This project is developed using the employee database.
 
 <h3>Requirements</h3>
@@ -58,7 +58,7 @@ domain: cfapps.io<br>
 memory: 1G<br>
 instances: 1<br>
 services:<br>- mysql</h6>
-9) Go to your project folder and open cmd here.
+9) Go to your project folder and open cmd here.(You should be logged in to Pivotal at this point)
 10) Execute: cf push
 11) One app should be seen running in your console.
 12) Click on the url and test your Deployed Application.
